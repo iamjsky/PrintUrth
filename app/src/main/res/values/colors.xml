@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3A3A3A</color>
+    <color name="colorPrimaryDark">#3A3A3A</color>
+    <color name="colorPrimaryLight">#3A3A3A</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="colorWindowBackground">#333</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#eeeeee</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBottomAndToolBar">#424242</color>
+    <color name="colorPrintUrth">#0096E0</color>
+    <color name="colorTabSelected">#19B2FF</color>
+    <color name="icon_color">#C2C2C2</color>
+    <color name="icon_selected_color">#757575</color>
+    <color name="icon_pressed_color">#757575</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_black">#000</color>
+    <color name="color_red">#FF5252</color>
+    <color name="color_yellow">#FFEB3B</color>
+    <color name="color_green">#00C853</color>
+    <color name="color_blue">#00B0FF</color>
+    <color name="color_pink">#D500F9</color>
+    <color name="color_brown">#8D6E63</color>
+
+</resources>

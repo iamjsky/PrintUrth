@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.PRDetailActivity">
+
+    <include layout="@layout/view_toolbar"/>
+    
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <ImageView
+            android:scaleType="fitXY"
+            android:id="@+id/prdetail_thumbnail"
+            android:background="@drawable/ic_launcher_background"
+            android:adjustViewBounds="true"
+            android:layout_width="200dp"
+            android:layout_height="match_parent" />
+        
+
+        <LinearLayout
+
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            
+            <TextView
+                android:id="@+id/prdetail_title"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:text="에펠탑"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/prdetail_makername"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:text="seankim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/prdetail_uploadat"
+                android:layout_marginBottom="10dp"
+                android:textSize="20dp"
+                android:text="2019-05-14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/prdetail_like"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/icn_unlike"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+
+    <TableLayout
+
+android:stretchColumns="*"
+        android:background="#999999"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"/>
+
+        <TableRow
+
+         >
+            <TextView
+                android:background="#ffffff"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="20dp"
+
+                android:text="난이도" />
+            <TextView
+                android:id="@+id/prdetail_level"
+                android:gravity="center"
+                android:background="#ffffff"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="1dp"
+                android:textSize="20dp"
+
+                android:text="중" />
+        </TableRow>
+
+        <TableRow          >
+            <TextView
+                android:background="#ffffff"
+android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+
+                android:text="시간" />
+            <TextView
+                android:id="@+id/prdetail_time"
+                android:background="#ffffff"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+
+                android:text="약 1시간 30분" />
+
+        </TableRow>
+        <TableRow
+          >
+            <TextView
+                android:background="#ffffff"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="1dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+
+                android:text="필라멘트 소모량" />
+            <TextView
+                android:id="@+id/prdetail_filament"
+                android:background="#ffffff"
+                android:layout_marginBottom="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20dp"
+
+                android:text="30 m" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/prdetail_drawbtn"
+        android:background="#FFBB00"
+        android:textSize="20dp"
+        android:text="그리기"
+       android:layout_width="match_parent"
+        android:layout_height="50dp" />
+   <TextView
+       android:padding="10dp"
+       android:id="@+id/prdetail_description"
+       android:text="설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명설명"
+       android:textSize="20dp"
+       android:layout_weight="1"
+       android:layout_width="match_parent"
+       android:layout_height="0dp" />
+</LinearLayout>

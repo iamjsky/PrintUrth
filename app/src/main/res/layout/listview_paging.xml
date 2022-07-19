@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--&lt;!&ndash;ListView 끝에서 다음 데이터 로딩중에 보여줄 프로그레스바&ndash;&gt;-->
+    <!--<ProgressBar-->
+        <!--android:id="@+id/progressbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"/>-->
+
+    <!--&lt;!&ndash;ListView를 정의한다.&ndash;&gt;-->
+    <!--<ListView-->
+        <!--android:id="@+id/listview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_above="@+id/progressbar"-->
+        <!--/>-->
+
+</RelativeLayout>

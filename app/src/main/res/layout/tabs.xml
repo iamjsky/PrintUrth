@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <com.google.android.material.tabs.TabLayout
+        app:tabTextColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+app:tabMode="fixed"
+        android:id="@+id/bottom_tablayout"
+app:tabIndicatorHeight="0dp"
+        app:tabMaxWidth="0dp"
+        app:tabGravity="fill"
+        app:tabTextAppearance="@style/tab_text"
+        app:tabBackground="@drawable/tabselectedbackground"
+
+       >
+
+
+        <com.google.android.material.tabs.TabItem
+
+            android:text="메인"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tab1"></com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:text="리스트"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tab2"></com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:text="My 리스트"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tab3"></com.google.android.material.tabs.TabItem>
+
+        <com.google.android.material.tabs.TabItem
+            android:text="설정"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/tab4"></com.google.android.material.tabs.TabItem>
+
+
+
+    </com.google.android.material.tabs.TabLayout>
+</LinearLayout>
